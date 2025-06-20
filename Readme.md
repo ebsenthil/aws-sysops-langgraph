@@ -39,22 +39,15 @@ System administrators, DevOps, or platform engineers can interact with AWS using
 
 ##  Setup Instructions (Google Colab)
 
-### 1. Install dependencies
+### 1. Install dependencies & Store credentials
 
 ```python
 !pip install --quiet boto3 langchain langgraph langchain_openai
 
 
-
-### 1. Store credentials
+### 2. Store credentials
 # - AWS_ACCESS_KEY_ID
 # - AWS_SECRET_ACCESS_KEY
 # - AWS_DEFAULT_REGION
 # - OPENAI_API_KEY
-
-
-
-
-
-
-
+```
