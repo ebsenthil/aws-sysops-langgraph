@@ -1,4 +1,4 @@
-#  AWS SysOps Automation Agent using LangGraph + OpenAI (Colab Ready)
+#  AWS SysOps Automation Agent using LangGraph + OpenAI
 
 This project demonstrates how to build an **AI-powered SysOps Agent** using Langgraph, Langchain and OpenAI. The agent performs **AWS operational tasks** using **natural language**, starting with Amazon S3 management — listing and creating buckets.
 
