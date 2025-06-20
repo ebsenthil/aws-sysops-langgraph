@@ -45,16 +45,16 @@ System administrators, DevOps, or platform engineers can interact with AWS using
 !pip install --quiet boto3 langchain langgraph langchain_openai
 
 
-from google.colab import userdata
 
-# Store these using `userdata.set(...)` if you're the notebook owner:
+### 1. Store credentials
 # - AWS_ACCESS_KEY_ID
 # - AWS_SECRET_ACCESS_KEY
 # - AWS_DEFAULT_REGION
 # - OPENAI_API_KEY
 
 
-import os
-os.environ["AWS_ACCESS_KEY_ID"] = userdata.get("AWS_ACCESS_KEY_ID")
-os.environ["AWS_SECRET_ACCESS_KEY"] = userdata.get("AWS_SECRET_ACCESS_KEY")
-os.environ["AWS_DEFAULT_REGION"] = userdata.get("AWS_DEFAULT_REGION")
+
+
+
+
+
