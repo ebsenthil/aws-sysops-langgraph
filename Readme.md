@@ -66,7 +66,7 @@ def list_s3_buckets() -> str:
 @tool
 def create_s3_bucket(bucket_name: str) -> str:
     s3_client.create_bucket(Bucket=bucket_name)
-    return f"✅ Bucket '{bucket_name}' created successfully!"
+    return f"Bucket '{bucket_name}' created successfully!"
 ```
 
 Extending to Other AWS SysOps Tasks
